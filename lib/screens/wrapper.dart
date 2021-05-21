@@ -16,6 +16,6 @@ class _WrapperState extends State<Wrapper> {
     if (user == null) {
       return Authenticate();
     }
-    return Home();
+    return Home(uid: user.uid,);
   }
 }
